@@ -1,0 +1,8 @@
+/* pages/home/logList.wxss */
+.container1{
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    background-color: "gray";
+    overflow: hidden;
+}

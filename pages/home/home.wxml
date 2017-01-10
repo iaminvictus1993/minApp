@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<view  class="container1" data-id="{{item._id}}" bindtap="viewLog" wx:for="{{docs}}">
+    <image src="{{item.logoPath}}"></image>
+    <view>{{item.name}}</view>
+    <view>{{item.age}}</view>
+    <view wx:if="{{item.sex==0}}">男</view>
+    <view wx:elif="{{item.sex==1}}">女</view>
+    <view wx:else>其它</view>
+    <view wx:if="{{item.sex==0}}">男</view>
+    <view wx:elif="{{item.sex==1}}">女</view>
+    <view wx:else>通吃</view>
+</view>

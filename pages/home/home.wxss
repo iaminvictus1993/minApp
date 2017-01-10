@@ -1,0 +1,13 @@
+/* pages/home/home.wxss */
+.container1{
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    background-color: "gray";
+    overflow: hidden;
+}
+image {
+    width:80px;
+    height: 88px;
+    float: left;
+}
